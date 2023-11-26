@@ -1,0 +1,201 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #fd6569;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+}
+.container{
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.book-container{
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    vertical-align: top;
+}
+.book-container:hover{
+    transform: scale(105%);
+    transition: .3s ease-in-out;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.book-container h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fd6569;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+}
+.book-container a{
+    text-decoration: none;
+}
+.book-container h4{
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.book-container p{
+    margin-bottom: 20px;
+    text-align: justify;
+    font-style: italic;
+}
+.book-container button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.book-container button:hover{
+    background-color: #fd6569;
+    color: white;
+    cursor: pointer;
+}
+.add-popup{
+    padding: 20px 30px;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    background-color: #fd6569;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    text-align: center;
+}
+.add-popup:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #fd6569;  
+}
+.popup-overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.popUpBox{
+    background-color: #fd6569;
+    width: 40%;
+    padding: 30px;
+    font-size: medium;
+    margin-top: 10px;
+    margin-left: 32%;
+    border: 2px solid black;
+    border-radius: 10pxd;
+    position: absolute;
+    top: 20%;
+    left: -4%;
+    z-index: 2;
+    display: none;
+
+}
+
+.popUpBox h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size:xx-large;
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+    margin-top: 2px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.popUpBox input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.popUpBox textarea{
+    background: transparent;
+    border: 2px solid black;
+    width: 100%;
+    padding: 4px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    margin-bottom: 15px ;
+}
+.popUpBox input::placeholder{
+    color: black;
+}
+.popUpBox textarea::placeholder{
+    color: black;
+}
+.popUpBox button{
+    padding: 10px;
+    border: none;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    align-items: baseline;   
+}
+.popUpBox button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #fd6569;
+}
+.popUpBox input:focus{
+    outline: none;
+}
+.popUpBox textarea:focus{
+    outline: none;
+}
+footer{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 100px;
+    width: 100%;
+    background-color: #fd6569;
+    align-items:baseline;
+}
+footer span{
+    font-family:'Teko', sans-serif;;
+}
+
+
+/* #book-name{
+    padding: 10px;
+    height: 10px;
+}
+#book-author{
+    padding: 10px;
+    height: 10px;
+} */
+
